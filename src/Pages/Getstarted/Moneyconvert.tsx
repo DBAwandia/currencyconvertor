@@ -8,7 +8,7 @@ function Moneyconvert() {
     const [ toAmount , setToAmount ] = useState <string>("")
     const [ valueFromOptions , setValueFromOPtions ] = useState <string>("KES")
     const [ valueToOptions , setValueToOPtions ] = useState <string>("KES")
-    console.log(toAmount.result)
+    // console.log(toAmount.result)
     //from currency
     const currencyFromDescription = valueFromOptions.split(" ");
     const firstThreeFromCurrency = currencyFromDescription.slice(0, 3)[0];
