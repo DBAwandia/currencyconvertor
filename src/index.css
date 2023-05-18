@@ -1,0 +1,57 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.gradient{
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff512f, #dd2476); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff512f, #dd2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg{
+  background: #DA22FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+input,button{
+  border: 0;
+  outline: 0;
+}
+ul,li{
+  list-style: none;
+}
+html,body{
+  width: 100%;
+  min-width: 100vh;
+  background: #faf8f7;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; 
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color:transparent;
+}
+
+
