@@ -33,10 +33,14 @@ function Moneyconvert() {
         }
         fetchData()
 
-        }catch(err){
+        }catch(err ){
+            // if(err ){
+                // alert(err.response.data.message)
+                alert("Please upgrade your plan , sorry i haven't subscribed to the API am on free plan☹")
+            // }
         }
 
-    }, [])
+    }, [amountToConvert, valueFromOptions , valueToOptions])
 
 
   return (
