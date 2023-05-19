@@ -36,7 +36,7 @@ function Moneyconvert() {
         }catch(err){
         }
 
-    }, [valueToOptions, valueFromOptions, MYAPI_KEY , value])
+    }, [])
 
 
   return (
