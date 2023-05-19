@@ -24,6 +24,9 @@ function Getstarted() {
 
   return (
     <div className='w-full min-h-screen'>
+        <div className='w-full h-[2.5rem] lg:h-[3rem] grid justify-center items-center lg:text-[1.5rem] text-[0.88rem] bg-[#523857] text-white'>
+            Its a free plan api , if no response quota is exceeded
+        </div>
         <div>
             <Navbar/>
         </div>
