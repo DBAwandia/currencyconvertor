@@ -7,7 +7,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/getstarted" element={<Getstarted/>} />
+          <Route path="/" element={<Getstarted/>} />
         </Routes>
       </Router>
     </>
