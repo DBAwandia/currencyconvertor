@@ -12,13 +12,13 @@ function Getstarted() {
 
     let describe_reasons: Array<DESCRIBE_REASONS> = [
         {
-            name: "Fast, secure money transfers up to 8x cheaper than the banks.",
+            name: "Fast, secure money converter up to 100x cheaper than the banks.",
         },
         {
-            name: "Withdraw to M-pesa instantly",
+            name: "Withdraw like Bitcoin network ,lightning speed",
         },
         {
-            name:"Withdraw to any exchange , Binance , Huobi , Bybit"
+            name:"Feel free to contact me for work"
         }
 ]
 
@@ -28,19 +28,19 @@ function Getstarted() {
             <Navbar/>
         </div>
 
-        <div className='lg:flex-1 lg:flex grid nh:grid grid-cols-1 nh:grid-cols-2 self-center '>
+        <div className='lg:flex-1 lg:flex grid grid-cols-1 items-center '>
 
             <div className='w-full md:px-[2rem] lg:hidden px-[1rem] py-[2rem] text-[2.3rem] lg:text-[5rem] text-[#DA22FF] font-[sans-serif] font-[900]'>
-                <h1>Fee-Free Transfers for 3 Months</h1>
+                <h1>Fee-Free Transfers for 10 years</h1>
             </div>
 
             <div className='lg:hidden md:px-[2rem] w-full lg:flex-[0.5]  p-[1rem] lg:p-[3rem] self-center'>
                 <Moneyconvert/>
             </div>
 
-            <div className='lg:flex-[0.5] w-full nh:w-auto self-center flex lg:px-[3rem] py-[3rem] px-[1rem] md:px-[2rem] flex-col gap-[3rem]'>
-                <div className='hidden lg:block text-[3rem] nh:text-[3rem] lg:text-[5rem] text-[#DA22FF] font-[sans-serif] font-[900]'>
-                    <h1>Fee-Free Transfers for 3 Months</h1>
+            <div className='lg:flex-[0.5] w-full  self-center flex lg:px-[3rem] py-[3rem] px-[1rem] md:px-[2rem] flex-col gap-[3rem]'>
+                <div className='hidden lg:block text-[3rem] nh:text-[2rem] lg:text-[5rem] text-[#DA22FF] font-[sans-serif] font-[900]'>
+                    <h1>Fee-Free Transfers for 10 years</h1>
                 </div>
 
                 {describe_reasons?.map((items , i) =>
@@ -51,7 +51,7 @@ function Getstarted() {
                 )}
             </div>
 
-            <div className='hidden lg:block w-full lg:flex-[0.5]  nh:w-auto nh:p-[1rem] p-[1rem] lg:p-[3rem] self-center'>
+            <div className='hidden lg:block lg:flex-[0.5] nh:p-[1rem] p-[1rem] lg:p-[3rem] self-center'>
                 <Moneyconvert/>
             </div>
             
